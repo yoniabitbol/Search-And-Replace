@@ -1,4 +1,4 @@
-# Search And Replace
+# Search And Replace 🔎📝
 
 # Objective
 
@@ -12,14 +12,16 @@ It will then give a detailed report of which files were altered and how many cha
 
 # Instructions
 
-Firstly, make sure to have gcc on your machine. To check if you have it refer to [this post](https://stackoverflow.com/questions/29416702/how-to-check-if-gcc-is-installed-on-my-pc#:~:text=In%20the%20Command%20Prompt%20window%20type%20%E2%80%9Cgcc%E2%80%9D%20and%20hit%20enter.&text=If%20the%20output%20says%20something,and%20you%20pass%20the%20test.).
+Firstly, make sure to have gcc on your machine. To check if you have it, refer to [this post](https://stackoverflow.com/questions/29416702/how-to-check-if-gcc-is-installed-on-my-pc#:~:text=In%20the%20Command%20Prompt%20window%20type%20%E2%80%9Cgcc%E2%80%9D%20and%20hit%20enter.&text=If%20the%20output%20says%20something,and%20you%20pass%20the%20test.).
 
 Then, add some files or folders with text files in them into the directory with the program and run the following command in your terminal (Make sure you are in the project's directory):
 
-`gcc replace.c text.c traversal.c report.`
+`gcc replace.c text.c traversal.c report.c`
 
 This should compile the program and generate a file called `a.out`. 
 
 Then, to actually run the program, type the following command in the terminal: `./a.out <string to replace>`.
 
-The program will run and output a detailed report of the changes made in each individual file.
+The program will run and output a detailed report of the changes made in each individual file like so:
+
+![alt text](https://imgur.com/tjkmytL)
