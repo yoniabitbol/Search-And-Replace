@@ -8,7 +8,7 @@ This program was made with the intention to gain some hands-on experience with C
 
 This simple search and replace program will find a user-specified text string within a group of files recursively by going through all text files in the current directory (and sub-directories), and will modify the strings to upper-case.
 
-It will then give a detailed report of which files were altered and how many changes were made in each of the files.
+It will then give a detailed and sorted report of which files were altered and how many changes were made in each of the files.
 
 # Instructions
 
@@ -25,3 +25,6 @@ Then, to actually run the program, type the following command in the terminal: `
 The program will run and output a detailed report of the changes made in each individual file like so:
 
 ![Output](output.jpeg)
+
+
+Enjoy! ❤️
