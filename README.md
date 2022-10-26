@@ -24,4 +24,4 @@ Then, to actually run the program, type the following command in the terminal: `
 
 The program will run and output a detailed report of the changes made in each individual file like so:
 
-![ScreenShot](https://i.imgur.com/tjkmytL)
+![ScreenShot](output.png)
