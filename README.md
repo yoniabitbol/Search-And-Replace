@@ -1,2 +1,23 @@
 # Search-And-Replace
-C Program that searches a user-specified word through text files and returns a sorted report of the changes made.
+
+# Objective
+
+This program was made with the intention to gain some hands-on experience with C.
+
+# Description
+
+This simple search and replace program will find a user-specified text string within a group of files recursively by going through all text files in the current directory (and sub-directories), and will modify the strings to upper-case.
+
+It will then give a detailed report of which files were altered and how many changes were made in each of the files.
+
+# Instructions
+
+Firstly, make sure to have gcc on your machine. To check if you have it refer to [this post](https://stackoverflow.com/questions/29416702/how-to-check-if-gcc-is-installed-on-my-pc#:~:text=In%20the%20Command%20Prompt%20window%20type%20%E2%80%9Cgcc%E2%80%9D%20and%20hit%20enter.&text=If%20the%20output%20says%20something,and%20you%20pass%20the%20test.).
+
+Then, add some files or folders with text files in them into the directory with the program and run the following command in your terminal (Make sure you are in the project's directory):
+
+`gcc replace.c text.c traversal.c report.`
+
+This should generate a file called `a.out`. Then in your terminal type `./a.out <string to replace>`.
+
+The program will run and output a detailed report of the changes made in each individual file.
