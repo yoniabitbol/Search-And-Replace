@@ -1,4 +1,4 @@
-# Search-And-Replace
+# Search And Replace
 
 # Objective
 
