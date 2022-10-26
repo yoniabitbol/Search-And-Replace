@@ -18,6 +18,8 @@ Then, add some files or folders with text files in them into the directory with 
 
 `gcc replace.c text.c traversal.c report.`
 
-This should generate a file called `a.out`. Then in your terminal type `./a.out <string to replace>`.
+This should compile the program and generate a file called `a.out`. 
+
+Then, to actually run the program, type the following command in the terminal: `./a.out <string to replace>`.
 
 The program will run and output a detailed report of the changes made in each individual file.
