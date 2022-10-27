@@ -35,7 +35,7 @@ void replaceWord(char path[], char word[]){
 
     if (fptr == NULL || ftmpo == NULL)
     {
-        printf("\nUnable to open file.\n");
+        fprintf(stderr,"\nUnable to open file.\n");
         return;
     }
 
@@ -54,6 +54,11 @@ void replaceWord(char path[], char word[]){
     strcat(updateFile, path);
     strcat(updateFile, "\n");
     updateArr[i] = updateFile;
+    if(updateArr == NULL){
+        fprintf(stderr, "Ran out of memory, terminating!");
+        exit(1);
+    }
+
     i++;
 
     fclose(fptr);
