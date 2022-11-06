@@ -16,7 +16,9 @@ Firstly, make sure to have gcc on your machine. To check if you have it, refer t
 
 Then, add some files or folders with text files in them into the directory with the program and run the following command in your terminal (Make sure you are in the project's directory):
 
-bash```gcc replace.c text.c traversal.c report.c```
+```bash
+gcc replace.c text.c traversal.c report.c
+```
 
 This should compile the program and generate a file named `a.out`. 
 
