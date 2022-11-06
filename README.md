@@ -23,7 +23,9 @@ gcc replace.c text.c traversal.c report.c
 This should compile the program and generate a file named `a.out`. 
 
 Then, to actually run the program, type the following command in the terminal: 
-```bash./a.out <string to replace>```
+```bash
+./a.out <string to replace>
+```
 
 The program will run and output a detailed report of the changes made in each individual file like so:
 
